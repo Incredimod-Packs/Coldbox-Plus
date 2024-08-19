@@ -32,8 +32,8 @@ self.addEventListener("install", (e) => {
   console.log("[Service Worker] Install");
   e.waitUntil(
     (async () => {
-      const cache = await caches.open(cacheName);
-      console.log("[Service Worker] Caching all: app shell and content");
+      const cache = await caches.open(Coldbox-Plus-v1);
+      console.log('[Service Worker] Caching all: app shell and content');
       await cache.addAll(contentToCache);
     })(),
   );
@@ -43,7 +43,7 @@ self.addEventListener("fetch", (e) => {
   console.log(`[Service Worker] Fetched resource ${e.request.url}`);
 });
 
-self.addEventListener("fetch", (e) => {
+self.addEventListener('fetch', (e) => {
   e.respondWith(
     (async () => {
       const r = await caches.match(e.request);
@@ -60,7 +60,7 @@ self.addEventListener("fetch", (e) => {
   );
 });
 
-contentToCache.push("/pwa-examples/js13kpwa/icons/icon-32.png");
+contentToCache.push('/pwa-examples/js13kpwa/icons/icon-32.png');
 
 // ...
 
