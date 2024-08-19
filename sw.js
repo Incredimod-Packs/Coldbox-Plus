@@ -1,3 +1,5 @@
+self.importScripts('asset-v7/app.js');
+
 const cacheName = "coldbox-plus-v1";
 const appShellFiles = [
   "asset-v7/app.js",
