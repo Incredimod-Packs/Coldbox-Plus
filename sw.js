@@ -1,7 +1,16 @@
-self.importScripts('asset-v7/app.js''asset-v4/app.js');
+self.importScripts('js/index.min.js''Coldbox-Plus/js/main.min.js');
 
 const cacheName = "coldbox-plus-v1";
 const appShellFiles = [
+  '/Coldbox-Plus/css/style.min.css'
+  '/Coldbox-Plus/js/libs/EasePack.min.js
+  '/Coldbox-Plus/js/libs/raf.js
+  '/Coldbox-Plus/js/libs/ScrollToPlugin.min.js
+  '/Coldbox-Plus/js/libs/SocialSharing.js
+  '/Coldbox-Plus/js/libs/TweenMax.min.js
+  '/Coldbox-Plus/js/libs/analytics.js
+  '/Coldbox-Plus/js/libs/jquery.js
+  '/Coldbox-Plus/js/libs/lame.min.js
   '/Coldbox-Plus/asset-v1/app.js',
   '/Coldbox-Plus/asset-v2/app.js',
   '/Coldbox-Plus/asset-v3/app.js',
