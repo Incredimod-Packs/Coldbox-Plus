@@ -18,7 +18,9 @@ const appShellFiles = [
   '/Coldbox-Plus/asset-v7/app.js',
   '/Coldbox-Plus/img/title.svg',
   '/Coldbox-Plus/img/title-darkmode.svg',
-  '/Coldbox-Plus/app.js
+  '/Coldbox-Plus/app.html',
+  '/Coldbox-Plus/app.js',
+  '/Coldbox-Plus/index.html
 ];
 const gamesImages = [];
 for (let i = 0; i < games.length; i++) {
