@@ -2,13 +2,13 @@ self.importScripts('asset-v7/app.js''asset-v4/app.js');
 
 const cacheName = "coldbox-plus-v1";
 const appShellFiles = [
-  'asset-v1/app.js',
-  'asset-v2/app.js',
-  'asset-v3/app.js',
-  'asset-v4/app.js',
-  'asset-v7/app.js',
-  'img/title.svg',
-  'img/title-darkmode.svg',
+  '/asset-v1/app.js',
+  '/asset-v2/app.js',
+  '/asset-v3/app.js',
+  '/asset-v4/app.js',
+  '/asset-v7/app.js',
+  '/img/title.svg',
+  '/img/title-darkmode.svg',
 ];
 const gamesImages = [];
 for (let i = 0; i < games.length; i++) {
